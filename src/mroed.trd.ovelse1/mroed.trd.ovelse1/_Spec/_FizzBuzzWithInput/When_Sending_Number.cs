@@ -3,7 +3,7 @@
 namespace mroed.trd.ovelse1._Spec._FizzBuzz
 {
     [TestFixture]
-    public class _FizzBuzzWithInput
+    public class When_Sending_Number
     {
         private readonly FizzBuzzWithInput _fizzBuzzWithInput = new FizzBuzzWithInput();
 
@@ -12,7 +12,6 @@ namespace mroed.trd.ovelse1._Spec._FizzBuzz
         {
             var result = _fizzBuzzWithInput.PrintNumber(1);
             Assert.AreEqual("1", result);
-            //Assert.AreEqual("2", sut.Print());
         }
 
         [Test]

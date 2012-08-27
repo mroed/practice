@@ -17,10 +17,12 @@ namespace mroed.trd.ovelse1
             if (counter % 3 == 0 && counter % 5 == 0)
             {
                 return "FizzBuzz";
-            } else if (counter % 3 == 0)
+            }
+            if (counter % 3 == 0)
             {
                 return "Fizz";
-            } else if (counter % 5 == 0)
+            }
+            if (counter % 5 == 0)
             {
                 return "Buzz";
             }

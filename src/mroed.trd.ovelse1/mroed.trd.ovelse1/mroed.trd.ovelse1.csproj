@@ -45,13 +45,11 @@
   <ItemGroup>
     <Compile Include="FizzBuzzWithInput.cs" />
     <Compile Include="FizzBuzz.cs" />
-    <Compile Include="FizzBuzzWithLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_Spec\_FizzBuzz\_FizzBuzzArray.cs" />
-    <Compile Include="_Spec\_FizzBuzz\_FizzBuzzInternalClass.cs" />
-    <Compile Include="_Spec\_FizzBuzz\_FizzBuzzWithInput.cs" />
-    <Compile Include="_Spec\_FizzBuzz\_FizzBuzz.cs" />
-    <Compile Include="_Spec\_FizzBuzz\_FizzBuzzWithLoops.cs" />
+    <Compile Include="_Spec\_FizzBuzz\When_Printing_Array.cs" />
+    <Compile Include="_Spec\_FizzBuzz\When_Using_Internal_PrintMethod.cs" />
+    <Compile Include="_Spec\_FizzBuzzWithInput\When_Sending_Number.cs" />
+    <Compile Include="_Spec\_FizzBuzz\When_Using_Internal_PrintMethod_LE.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
