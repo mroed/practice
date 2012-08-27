@@ -6,7 +6,7 @@ namespace mroed.trd.ovelse2
     {
          public virtual string Print(int number)
          {
-             return null;
+             return Convert.ToString(number);
          }
     }
 }

@@ -6,7 +6,11 @@ namespace mroed.trd.ovelse2
     {
         public virtual bool Matches(int number)
         {
-            throw new InvalidOperationException();
+            if (number % 3 == 0)
+                return true;
+            if (number % 5 == 0)
+                return true;
+            return false;
         } 
     }
 }
