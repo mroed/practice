@@ -1,22 +1,18 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzz.cs" caret="521" fromTop="22" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzzWithLoop.cs" caret="386" fromTop="18" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzzWithInput.cs" caret="312" fromTop="9" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzWithInput.cs" caret="225" fromTop="7" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzz.cs" caret="593" fromTop="26" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzArray.cs" caret="364" fromTop="13" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzWithLoops.cs" caret="527" fromTop="22" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzInternalClass.cs" caret="2091" fromTop="29" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:When_Printing_Array.cs" caret="480" fromTop="18" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzzWithInput/f:When_Sending_Number.cs" caret="452" fromTop="17" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:When_Using_Internal_PrintMethod_LE.cs" caret="2853" fromTop="16" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:When_Using_Internal_PrintMethod.cs" caret="754" fromTop="30" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzzWithInput.cs" caret="0" fromTop="0" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzz.cs" caret="290" fromTop="14" />
   </RecentFiles>
   <RecentEdits>
     <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzzWithInput.cs" caret="312" fromTop="9" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzWithInput.cs" caret="2287" fromTop="49" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzzWithLoop.cs" caret="386" fromTop="18" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzz.cs" caret="561" fromTop="22" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzArray.cs" caret="195" fromTop="7" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzz.cs" caret="593" fromTop="26" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzInternalClass.cs" caret="2091" fromTop="40" />
-    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:_FizzBuzzWithLoops.cs" caret="527" fromTop="22" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/f:FizzBuzz.cs" caret="523" fromTop="24" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:When_Printing_Array.cs" caret="480" fromTop="18" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzzWithInput/f:When_Sending_Number.cs" caret="393" fromTop="14" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:When_Using_Internal_PrintMethod.cs" caret="138" fromTop="6" />
+    <File id="AAC1393F-F567-46C1-8C8E-1679C0668F70/d:_Spec/d:_FizzBuzz/f:When_Using_Internal_PrintMethod_LE.cs" caret="481" fromTop="19" />
   </RecentEdits>
 </RecentFiles>
