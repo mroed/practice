@@ -3,7 +3,7 @@
 namespace mroed.trd.ovelse2._Spec._FizzPredicate
 {
     [TestFixture]
-    public class When_Given_Number
+    public class When_Matching
     {
         private FizzPredicate _sut = new FizzPredicate();
 

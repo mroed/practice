@@ -12,7 +12,7 @@ namespace mroed.trd.ovelse2._Spec._FizzBuzz
         private readonly FizzBuzzPrinterFake _fizzBuzzPrinter = new FizzBuzzPrinterFake();
 
 
-        [TestFixtureSetUp]
+        [SetUp]
         public void Setup()
         {
             _sut = new FizzBuzz(_numericPrinter, _fizzBuzzPrinter, _fizzBuzzPredicate);

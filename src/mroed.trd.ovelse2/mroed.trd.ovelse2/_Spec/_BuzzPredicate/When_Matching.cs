@@ -3,11 +3,9 @@
 namespace mroed.trd.ovelse2._Spec._BuzzPredicate
 {
     [TestFixture]
-    public class When_Given_Number
+    public class When_Matching
     {
         private readonly BuzzPredicate _sut = new BuzzPredicate();
-
-
 
         [Test]
         public void Should_Return_True_When_Divisible_By_Five()

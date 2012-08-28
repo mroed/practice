@@ -2,33 +2,34 @@
   <RecentFiles>
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_NumericPrinter/f:NumericNumberTest.cs" caret="538" fromTop="21" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:NumericPrinter.cs" caret="0" fromTop="0" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/f:BuzzPredicateFake.cs" caret="554" fromTop="22" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/f:FizzPredicateFake.cs" caret="506" fromTop="19" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPredicate/f:PredicateTest.cs" caret="221" fromTop="8" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:NumericPrinterFake.cs" caret="101" fromTop="4" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:FizzBuzzPrinterFake.cs" caret="107" fromTop="4" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:FizzBuzzPredicateFake.cs" caret="195" fromTop="7" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:FizzAndBuzz/f:When_Printing.cs" caret="634" fromTop="19" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:FizzNotBuzz/f:When_Printing.cs" caret="676" fromTop="15" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:BuzzNotFizz/f:When_Printing.cs" caret="739" fromTop="23" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:PrintTest.cs" caret="452" fromTop="8" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPrinter.cs" caret="0" fromTop="0" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPredicate.cs" caret="0" fromTop="0" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzz.cs" caret="0" fromTop="0" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_BuzzPredicate/f:When_Given_Number.cs" caret="543" fromTop="23" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzPredicate/f:When_Given_Number.cs" caret="540" fromTop="18" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzPredicate.cs" caret="185" fromTop="9" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:BuzzPredicate.cs" caret="185" fromTop="9" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:FizzAndBuzz/f:When_Printing.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:FizzNotBuzz/f:When_Printing.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzPredicate/f:When_Matching.cs" caret="126" fromTop="5" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:OrPredicate.cs" caret="384" fromTop="15" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:OrPredicateFactory.cs" caret="300" fromTop="12" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:Predicate.cs" caret="102" fromTop="4" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_BuzzPredicate/f:When_Matching.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/f:BuzzPredicateFake.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzz.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:NumericPrinterFake.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/f:FizzPredicateFake.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:FizzBuzzPredicateFake.cs" caret="103" fromTop="4" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPrinter.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:BuzzNotFizz/f:When_Printing.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPredicate/f:PredicateTest.cs" caret="984" fromTop="25" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:BuzzPredicate.cs" caret="0" fromTop="0" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPredicate.cs" caret="927" fromTop="24" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:PrintTest.cs" caret="125" fromTop="6" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_BuzzPredicate/f:IntegrationTest.cs" caret="457" fromTop="16" />
   </RecentFiles>
   <RecentEdits>
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:FizzBuzzPredicateFake.cs" caret="557" fromTop="20" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:FizzBuzzPrinterFake.cs" caret="535" fromTop="20" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:NumericPrinterFake.cs" caret="101" fromTop="4" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:NumericPrinter.cs" caret="188" fromTop="8" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPredicate/f:PredicateTest.cs" caret="1212" fromTop="37" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:PrintTest.cs" caret="1012" fromTop="26" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_NumericPrinter/f:NumericNumberTest.cs" caret="538" fromTop="21" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPredicate.cs" caret="271" fromTop="10" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/f:FizzPredicateFake.cs" caret="494" fromTop="19" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/f:BuzzPredicateFake.cs" caret="150" fromTop="6" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzz.cs" caret="849" fromTop="26" />
@@ -36,9 +37,16 @@
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:BuzzNotFizz/f:When_Printing.cs" caret="778" fromTop="23" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPrinter/d:FizzAndBuzz/f:When_Printing.cs" caret="621" fromTop="18" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPrinter.cs" caret="633" fromTop="19" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_BuzzPredicate/f:When_Given_Number.cs" caret="543" fromTop="23" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzPredicate/f:When_Given_Number.cs" caret="537" fromTop="18" />
     <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzPredicate.cs" caret="185" fromTop="9" />
-    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:BuzzPredicate.cs" caret="185" fromTop="9" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:BuzzPredicate.cs" caret="205" fromTop="9" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_BuzzPredicate/f:When_Matching.cs" caret="128" fromTop="5" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzPredicate/f:When_Matching.cs" caret="126" fromTop="5" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:Predicate.cs" caret="102" fromTop="4" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:OrPredicate.cs" caret="371" fromTop="14" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:OrPredicateFactory.cs" caret="202" fromTop="7" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/f:FizzBuzzPredicate.cs" caret="927" fromTop="24" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzzPredicate/f:PredicateTest.cs" caret="1519" fromTop="41" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_FizzBuzz/f:PrintTest.cs" caret="513" fromTop="14" />
+    <File id="A064A357-E76C-4DB4-B3CB-C14EF0E496F7/d:_Spec/d:_BuzzPredicate/f:IntegrationTest.cs" caret="2619" fromTop="46" />
   </RecentEdits>
 </RecentFiles>
