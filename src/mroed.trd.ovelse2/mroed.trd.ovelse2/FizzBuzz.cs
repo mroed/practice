@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace mroed.trd.ovelse2
 {
@@ -10,7 +7,8 @@ namespace mroed.trd.ovelse2
         private readonly NumericPrinter _numericPrinter;
         private readonly FizzBuzzPrinter _fizzBuzzPrinter;
         private readonly FizzBuzzPredicate _fizzBuzzPredicate;
-        private int _counter = 0;
+        private int _counter;
+      
 
         public FizzBuzz(NumericPrinter numericPrinter, FizzBuzzPrinter fizzBuzzPrinter, FizzBuzzPredicate fizzBuzzPredicate)
         {
@@ -25,8 +23,6 @@ namespace mroed.trd.ovelse2
             if (_fizzBuzzPredicate.Matches(_counter))
                 return _fizzBuzzPrinter.Print(_counter);
             return _numericPrinter.Print(_counter);
-
         }
-
     }
 }

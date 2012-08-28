@@ -43,25 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuzzPredicate.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="FizzBuzzPredicate.cs" />
     <Compile Include="FizzBuzzPrinter.cs" />
+    <Compile Include="FizzPredicate.cs" />
     <Compile Include="NumericPrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_Spec\_FizzBuzzPrinter\FizzBuzzPredicateFake.cs" />
-    <Compile Include="_Spec\_FizzBuzzPrinter\FizzBuzzPrinterTest.cs" />
+    <Compile Include="_Spec\_BuzzPredicate\When_Given_Number.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\BuzzNotFizz\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\BuzzPredicateFake.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\FizzAndBuzz\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\FizzNotBuzz\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\FizzPredicateFake.cs" />
     <Compile Include="_Spec\_FizzBuzz\FizzBuzzPredicateFake.cs" />
     <Compile Include="_Spec\_FizzBuzz\FizzBuzzPrinterFake.cs" />
     <Compile Include="_Spec\_FizzBuzz\NumericPrinterFake.cs" />
     <Compile Include="_Spec\_FizzBuzz\PrintTest.cs" />
     <Compile Include="_Spec\_FizzBuzzPredicate\PredicateTest.cs" />
+    <Compile Include="_Spec\_FizzPredicate\When_Given_Number.cs" />
     <Compile Include="_Spec\_NumericPrinter\NumericNumberTest.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="_Spec\_FizzBuzzPrinter\BuzzNotFizz\" />
-    <Folder Include="_Spec\_FizzBuzzPrinter\FizzAndBuzz\" />
-    <Folder Include="_Spec\_FizzBuzzPrinter\FizzNotBuzz\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
