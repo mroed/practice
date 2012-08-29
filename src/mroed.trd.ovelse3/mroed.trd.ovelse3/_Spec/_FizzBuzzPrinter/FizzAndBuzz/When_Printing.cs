@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
+using mroed.trd.ovelse3._Spec._FizzBuzz;
 
 namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzAndBuzz
 {
@@ -8,20 +10,22 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzAndBuzz
         private FizzBuzzPrinter _sut;
         private readonly FizzPredicateFake _fizzPredicate = new FizzPredicateFake();
         private readonly BuzzPredicateFake _buzzPredicate = new BuzzPredicateFake();
+        private readonly CounterFake _counter = new CounterFake();
 
         [TestFixtureSetUp]
         public void Setup()
         {
-            _fizzPredicate.MatchesShouldReturn(true, 1);
-            _buzzPredicate.MatchesShouldReturn(true, 1);
-            
             _sut = new FizzBuzzPrinter(_fizzPredicate, _buzzPredicate);
         }
 
         [Test]
         public void Should_Return_FizzBuzz()
         {
-            Assert.AreEqual("FizzBuzz", _sut.Print(1));
+            _counter.Value = 1;
+            _fizzPredicate.MatchesShouldReturn(true, _counter);
+            _buzzPredicate.MatchesShouldReturn(true, _counter);
+
+            Assert.AreEqual("FizzBuzz", _sut.Print(_counter));
         }
          
     }

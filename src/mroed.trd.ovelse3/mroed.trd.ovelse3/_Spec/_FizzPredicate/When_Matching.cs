@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using mroed.trd.ovelse3._Spec._FizzBuzz;
 
 namespace mroed.trd.ovelse3._Spec._FizzPredicate
 {
@@ -6,17 +7,25 @@ namespace mroed.trd.ovelse3._Spec._FizzPredicate
     public class When_Matching
     {
         private FizzPredicate _sut = new FizzPredicate();
+        private readonly CounterFake _counter = new CounterFake();
+
+        public void SetCounterValue(int value)
+        {
+            _counter.Value = value;
+        }
 
         [Test]
         public void Should_Return_True_When_Given_Number_Divisible_By_Three()
         {
-            Assert.AreEqual(true, _sut.Matches(3));
+            SetCounterValue(3);
+            Assert.AreEqual(true, _sut.Matches(_counter));
         }
 
         [Test]
         public void Should_Return_False_When_Given_Number_Is_Not_Dividible_By_Three()
         {
-            Assert.AreEqual(false, _sut.Matches(2));
+            SetCounterValue(2);
+            Assert.AreEqual(false, _sut.Matches(_counter));
         }
     }
 }

@@ -21,19 +21,18 @@ namespace mroed.trd.ovelse3
         //    _predicate = predicateFactory.Create(new List<Predicate<int>>{fizzPredicate, buzzPredicate});
         //}
 
-        public virtual bool Matches(int number)
-        {
-            return (_fizzPredicate.Matches(number) || _buzzPredicate.Matches(number));
-        }
-
-        public FizzBuzzPredicate()
-        {
-
-        }
+        //TODO remove int method
+        //public virtual bool Matches(int number)
+        //{
+        //    return (_fizzPredicate.Matches(number) || _buzzPredicate.Matches(number));
+        //}
 
         public virtual bool Matches(Counter counter)
         {
-            throw new NotImplementedException();
+            return (_fizzPredicate.Matches(counter) || _buzzPredicate.Matches(counter));
+        }
+        public FizzBuzzPredicate()
+        {
         }
     }
 }

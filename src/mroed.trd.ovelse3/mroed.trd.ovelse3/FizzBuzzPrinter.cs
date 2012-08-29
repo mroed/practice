@@ -13,18 +13,23 @@ namespace mroed.trd.ovelse3
             _buzzPredicate = buzzPredicate;
         }
 
-        public virtual string Print(int number)
-        {
-            if (_fizzPredicate.Matches(number) && _buzzPredicate.Matches(number))
-                return "FizzBuzz";
-            if (_buzzPredicate.Matches(number))
-                return "Buzz";
-            return "Fizz";
-        }
+        //TODO remove int method
+        //public virtual string Print(int number)
+        //{
+        //    if (_fizzPredicate.Matches(number) && _buzzPredicate.Matches(number))
+        //        return "FizzBuzz";
+        //    if (_buzzPredicate.Matches(number))
+        //        return "Buzz";
+        //    return "Fizz";
+        //}
 
         public virtual string Print(Counter counter)
         {
-            throw new NotImplementedException();
+            if (_fizzPredicate.Matches(counter) && _buzzPredicate.Matches(counter))
+                return "FizzBuzz";
+            if (_buzzPredicate.Matches(counter))
+                return "Buzz";
+            return "Fizz";
         }
 
         public FizzBuzzPrinter()

@@ -4,9 +4,15 @@ namespace mroed.trd.ovelse3
 {
     public class BuzzPredicate
     {
-        public virtual bool Matches(int number)
+        //TODO remove int method
+        //public virtual bool Matches(int number)
+        //{
+        //    return (number%5 == 0);
+        //}
+
+        public virtual bool Matches(Counter counter)
         {
-            return (number%5 == 0);
-        } 
+            return (counter.Value % 5 == 0);
+        }
     }
 }

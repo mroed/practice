@@ -8,11 +8,12 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzz
         private int _number;
         private Counter _counter;
 
-        public void PrintShouldReturn(string expected, int number)
-        {
-            _expected = expected;
-            _number = number;
-        }
+        //TODO remove int method
+        //public void PrintShouldReturn(string expected, int number)
+        //{
+        //    _expected = expected;
+        //    _number = number;
+        //}
 
         public void PrintShouldReturn(string expected, Counter counter)
         {
@@ -20,13 +21,14 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzz
             _counter = counter;
         }
 
-        public override string Print(int number)
-        {
-            if (_number == number)
-                return _expected;
+        //TODO remove int method
+        //public override string Print(int number)
+        //{
+        //    if (_number == number)
+        //        return _expected;
 
-            throw new InvalidOperationException();
-        }
+        //    throw new InvalidOperationException();
+        //}
 
         public override string Print(Counter counter)
         {

@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace mroed.trd.ovelse3._Spec._BuzzPredicate
 {
@@ -6,17 +7,25 @@ namespace mroed.trd.ovelse3._Spec._BuzzPredicate
     public class When_Matching
     {
         private readonly BuzzPredicate _sut = new BuzzPredicate();
+        private readonly Counter _counter = new Counter();
 
-        [Test]
-        public void Should_Return_True_When_Divisible_By_Five()
+        public void SetCounterValue(int value)
         {
-            Assert.AreEqual(true, _sut.Matches(5));
+            _counter.Value = value;
         }
 
         [Test]
-        public void Should_Return_False_When_Not_Divisible_By_Five()
+        public void Should_Return_True_When_Divisible_By_Five_Using_Counter()
         {
-            Assert.AreEqual(false, _sut.Matches(4));
+            SetCounterValue(5);
+            Assert.AreEqual(true, _sut.Matches(_counter));
+        }
+
+        [Test]
+        public void Should_Return_False_When_Not_Divisible_By_Five_Using_Counter()
+        {
+            SetCounterValue(4);
+            Assert.AreEqual(false, _sut.Matches(_counter));
         }
     }
 }

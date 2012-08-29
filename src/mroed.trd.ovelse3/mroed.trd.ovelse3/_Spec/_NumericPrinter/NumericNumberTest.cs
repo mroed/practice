@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using mroed.trd.ovelse3._Spec._FizzBuzz;
 
 namespace mroed.trd.ovelse3._Spec._NumericPrinter
 {
@@ -7,12 +8,13 @@ namespace mroed.trd.ovelse3._Spec._NumericPrinter
     public class NumericNumberTest
     {
         private NumericPrinter _sut = new NumericPrinter();
+        private readonly CounterFake _counter = new CounterFake();
 
         [Test]
         public void Should_Return_Same_Number_As_Given()
         {
-            Assert.AreEqual("1", _sut.Print(1));
-            
+            _counter.Value = 1;
+            Assert.AreEqual("1", _sut.Print(_counter));
         }
 
         [Test]
@@ -20,7 +22,11 @@ namespace mroed.trd.ovelse3._Spec._NumericPrinter
         {
             Random random = new Random();
             var _randomNumber = random.Next();
-            Assert.AreEqual(Convert.ToString(_randomNumber), _sut.Print(_randomNumber));
+            _counter.Value = _randomNumber;
+
+            Assert.AreEqual(Convert.ToString(_randomNumber), _sut.Print(_counter));
         }
+
+
     }
 }

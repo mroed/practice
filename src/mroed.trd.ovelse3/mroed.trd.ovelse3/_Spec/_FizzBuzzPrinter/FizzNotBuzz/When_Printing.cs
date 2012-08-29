@@ -9,20 +9,26 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzNotBuzz
         private FizzBuzzPrinter _sut;
         private readonly FizzPredicateFake _fizzPredicate = new FizzPredicateFake();
         private readonly BuzzPredicateFake _buzzPredicate = new BuzzPredicateFake();
+        private readonly CounterFake _counter = new CounterFake();
 
         [TestFixtureSetUp]
         public void Setup()
         {
-            _fizzPredicate.MatchesShouldReturn(true, 1);
-            _buzzPredicate.MatchesShouldReturn(false, 1);
-            
             _sut = new FizzBuzzPrinter(_fizzPredicate, _buzzPredicate);
+        }
+
+        public void SetCounterValue(int value)
+        {
+            _counter.Value = value;
         }
 
         [Test]
         public void Should_Return_Fizz()
         {
-            Assert.AreEqual("Fizz", _sut.Print(1));
+            SetCounterValue(1);
+            _fizzPredicate.MatchesShouldReturn(true, _counter);
+            _buzzPredicate.MatchesShouldReturn(false, _counter);
+            Assert.AreEqual("Fizz", _sut.Print(_counter));
         }
     }
 }

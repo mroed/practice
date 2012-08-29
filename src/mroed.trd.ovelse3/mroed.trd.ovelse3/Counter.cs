@@ -6,7 +6,7 @@ namespace mroed.trd.ovelse3
     {
         public virtual void Increment()
         {
-            throw new NotImplementedException();
+            Value++;
         }
 
         public virtual int Value { get; set; }
