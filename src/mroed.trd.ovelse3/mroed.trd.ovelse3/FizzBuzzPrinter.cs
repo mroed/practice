@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace mroed.trd.ovelse3
+﻿namespace mroed.trd.ovelse3
 {
     public class FizzBuzzPrinter
     {
@@ -13,16 +11,6 @@ namespace mroed.trd.ovelse3
             _buzzPredicate = buzzPredicate;
         }
 
-        //TODO remove int method
-        //public virtual string Print(int number)
-        //{
-        //    if (_fizzPredicate.Matches(number) && _buzzPredicate.Matches(number))
-        //        return "FizzBuzz";
-        //    if (_buzzPredicate.Matches(number))
-        //        return "Buzz";
-        //    return "Fizz";
-        //}
-
         public virtual string Print(Counter counter)
         {
             if (_fizzPredicate.Matches(counter) && _buzzPredicate.Matches(counter))
@@ -34,7 +22,6 @@ namespace mroed.trd.ovelse3
 
         public FizzBuzzPrinter()
         {
-
         }
     }
 }

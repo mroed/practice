@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace mroed.trd.ovelse3
+﻿namespace mroed.trd.ovelse3
 {
     public class Counter
     {
@@ -9,6 +7,6 @@ namespace mroed.trd.ovelse3
             Value++;
         }
 
-        public virtual int Value { get; set; }
+        public virtual int Value { get; protected set; }
     }
 }

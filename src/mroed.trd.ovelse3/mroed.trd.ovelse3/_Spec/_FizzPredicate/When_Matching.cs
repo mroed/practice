@@ -1,17 +1,16 @@
 ﻿using NUnit.Framework;
-using mroed.trd.ovelse3._Spec._FizzBuzz;
 
 namespace mroed.trd.ovelse3._Spec._FizzPredicate
 {
     [TestFixture]
     public class When_Matching
     {
-        private FizzPredicate _sut = new FizzPredicate();
+        private readonly FizzPredicate _sut = new FizzPredicate();
         private readonly CounterFake _counter = new CounterFake();
 
         public void SetCounterValue(int value)
         {
-            _counter.Value = value;
+            _counter.SetValue(value);
         }
 
         [Test]

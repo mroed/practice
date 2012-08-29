@@ -1,6 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-using mroed.trd.ovelse3._Spec._FizzBuzz;
+﻿using NUnit.Framework;
 using mroed.trd.ovelse3._Spec._FizzBuzzPrinter;
 
 namespace mroed.trd.ovelse3._Spec._FizzBuzzPredicate
@@ -15,9 +13,9 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzzPredicate
 
         [TestFixtureSetUp]
         public void Setup()
-        {
+        {            
             _sut = new FizzBuzzPredicate(_fizzPredicate, _buzzPredicate);
-            _counter.Value = 1;
+            _counter.SetValue(1);
         }
         
         [Test]

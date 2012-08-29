@@ -1,6 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-using mroed.trd.ovelse3._Spec._FizzBuzz;
+﻿using NUnit.Framework;
 
 namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzAndBuzz
 {
@@ -21,7 +19,6 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzAndBuzz
         [Test]
         public void Should_Return_FizzBuzz()
         {
-            _counter.Value = 1;
             _fizzPredicate.MatchesShouldReturn(true, _counter);
             _buzzPredicate.MatchesShouldReturn(true, _counter);
 

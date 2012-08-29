@@ -7,22 +7,22 @@ namespace mroed.trd.ovelse3._Spec._BuzzPredicate
     public class When_Matching
     {
         private readonly BuzzPredicate _sut = new BuzzPredicate();
-        private readonly Counter _counter = new Counter();
+        private readonly CounterFake _counter = new CounterFake();
 
         public void SetCounterValue(int value)
         {
-            _counter.Value = value;
+            _counter.SetValue(value);
         }
 
         [Test]
-        public void Should_Return_True_When_Divisible_By_Five_Using_Counter()
+        public void Should_Return_True_When_Divisible_By_Five()
         {
             SetCounterValue(5);
             Assert.AreEqual(true, _sut.Matches(_counter));
         }
 
         [Test]
-        public void Should_Return_False_When_Not_Divisible_By_Five_Using_Counter()
+        public void Should_Return_False_When_Not_Divisible_By_Five()
         {
             SetCounterValue(4);
             Assert.AreEqual(false, _sut.Matches(_counter));

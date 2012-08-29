@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using mroed.trd.ovelse3._Spec._FizzBuzz;
 
 namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzNotBuzz
 {
@@ -17,15 +16,9 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzzPrinter.FizzNotBuzz
             _sut = new FizzBuzzPrinter(_fizzPredicate, _buzzPredicate);
         }
 
-        public void SetCounterValue(int value)
-        {
-            _counter.Value = value;
-        }
-
         [Test]
         public void Should_Return_Fizz()
         {
-            SetCounterValue(1);
             _fizzPredicate.MatchesShouldReturn(true, _counter);
             _buzzPredicate.MatchesShouldReturn(false, _counter);
             Assert.AreEqual("Fizz", _sut.Print(_counter));

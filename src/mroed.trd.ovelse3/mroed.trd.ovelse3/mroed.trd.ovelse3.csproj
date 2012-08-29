@@ -53,9 +53,6 @@
     <Compile Include="FizzBuzzPrinter.cs" />
     <Compile Include="FizzPredicate.cs" />
     <Compile Include="NumericPrinter.cs" />
-    <Compile Include="OrPredicate.cs" />
-    <Compile Include="OrPredicateFactory.cs" />
-    <Compile Include="Predicate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_Spec\_BuzzPredicate\IntegrationTest.cs" />
     <Compile Include="_Spec\_BuzzPredicate\When_Matching.cs" />
@@ -65,11 +62,11 @@
     <Compile Include="_Spec\_FizzBuzzPrinter\FizzAndBuzz\When_Printing.cs" />
     <Compile Include="_Spec\_FizzBuzzPrinter\FizzNotBuzz\When_Printing.cs" />
     <Compile Include="_Spec\_FizzBuzzPrinter\FizzPredicateFake.cs" />
-    <Compile Include="_Spec\_FizzBuzz\CounterFake.cs" />
+    <Compile Include="_Spec\CounterFake.cs" />
     <Compile Include="_Spec\_FizzBuzz\FizzBuzzPredicateFake.cs" />
     <Compile Include="_Spec\_FizzBuzz\FizzBuzzPrinterFake.cs" />
-    <Compile Include="_Spec\_FizzBuzz\IsFizzBuzz\PrintTest.cs" />
-    <Compile Include="_Spec\_FizzBuzz\NotFizzBuzz\PrintTest.cs" />
+    <Compile Include="_Spec\_FizzBuzz\IsFizzBuzz\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzz\NotFizzBuzz\When_Printing.cs" />
     <Compile Include="_Spec\_FizzBuzz\NumericPrinterFake.cs" />
     <Compile Include="_Spec\_FizzBuzzPredicate\PredicateTest.cs" />
     <Compile Include="_Spec\_FizzPredicate\When_Matching.cs" />

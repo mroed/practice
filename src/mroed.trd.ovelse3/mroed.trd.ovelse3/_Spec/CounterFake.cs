@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace mroed.trd.ovelse3._Spec._FizzBuzz
+﻿namespace mroed.trd.ovelse3._Spec
 {
     public class CounterFake : Counter
     {
@@ -8,7 +6,10 @@ namespace mroed.trd.ovelse3._Spec._FizzBuzz
         {
             Value++;
         }
-
-        public override int Value { get; set; }
+        public void SetValue(int value)
+        {
+            Value = value;
+        }
+        
     }
 }
