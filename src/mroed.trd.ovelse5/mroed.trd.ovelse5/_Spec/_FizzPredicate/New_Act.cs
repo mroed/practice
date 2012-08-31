@@ -1,11 +1,11 @@
 ﻿using Rhino.Mocks;
 
-namespace mroed.trd.ovelse5._Spec._BuzzPredicate.New
+namespace mroed.trd.ovelse5._Spec._FizzPredicate
 {
     public class New_Act : Base_Act
     {
-        protected BuzzPredicate Sut { get; set; }
-        protected Counter Counter = MockRepository.GenerateStrictMock<Counter>();
+        protected FizzPredicate Sut { get; set; }
+        protected Counter Counter = MockRepository.GenerateMock<Counter>();
 
         protected override void Arrange()
         {
@@ -15,8 +15,7 @@ namespace mroed.trd.ovelse5._Spec._BuzzPredicate.New
 
         protected override void Act()
         {
-            Sut = new BuzzPredicate();
+            Sut = new FizzPredicate();
         }
-
     }
 }
