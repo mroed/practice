@@ -2,7 +2,7 @@
 
 namespace mroed.trd.ovelse5._Spec._FizzBuzz.New.NotFizzBuzz
 {
-    public class Printing_Act : New_Act
+    public class Print_Act : New_Act
     {
         protected string Returned;
 

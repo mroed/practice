@@ -2,7 +2,7 @@
 
 namespace mroed.trd.ovelse5._Spec._BuzzPredicate.New.NotDividableByFive
 {
-    public class Matching_Act : New_Act
+    public class Match_Act : New_Act
     {
         protected bool Returned { get; set; }
 

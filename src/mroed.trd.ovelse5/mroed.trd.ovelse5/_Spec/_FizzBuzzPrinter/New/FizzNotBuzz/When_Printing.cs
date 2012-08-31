@@ -4,7 +4,7 @@ using Rhino.Mocks;
 namespace mroed.trd.ovelse5._Spec._FizzBuzzPrinter.New.FizzNotBuzz
 {
     [TestFixture]
-    public class When_Printing : Printing_Act
+    public class When_Printing : Print_Act
     {
         [TestFixtureSetUp]
         public void BeforeAll()
@@ -16,7 +16,7 @@ namespace mroed.trd.ovelse5._Spec._FizzBuzzPrinter.New.FizzNotBuzz
         [Test]
         public void Should_Return_Fizz()
         {
-            Assert.AreEqual("Fizz", Sut.Print(Counter));
+            Assert.AreEqual("Fizz", Returned);
         }
     }
 }

@@ -1,11 +1,10 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using Rhino.Mocks;
 
 namespace mroed.trd.ovelse5._Spec._FizzBuzz.New.IsFizzBuzz
 {
     [TestFixture]
-    public class When_Printing : Printing_Act
+    public class When_Printing : Print_Act
     {
         [TestFixtureSetUp]
         public void BeforeAll()

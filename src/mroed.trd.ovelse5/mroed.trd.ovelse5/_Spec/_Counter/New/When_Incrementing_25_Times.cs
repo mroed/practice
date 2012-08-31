@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 
-namespace mroed.trd.ovelse5._Spec._Counter.New.Given25
+namespace mroed.trd.ovelse5._Spec._Counter.New
 {
     [TestFixture]
-    public class When_Incrementing_25_Times : Incrementing_Act
+    public class When_Incrementing_25_Times : Increment25_Act
     {
         [TestFixtureSetUp]
         public void BeforeAll()
@@ -15,7 +15,7 @@ namespace mroed.trd.ovelse5._Spec._Counter.New.Given25
         [Test]
         public void Counter_increments_Once()
         {
-            Assert.AreEqual(25, Returned.Value);
+            Assert.AreEqual(25, Sut.Value);
         }
     }
 }

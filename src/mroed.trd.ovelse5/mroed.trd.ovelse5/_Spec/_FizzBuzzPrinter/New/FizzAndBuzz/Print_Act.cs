@@ -1,8 +1,8 @@
 ﻿using Rhino.Mocks;
 
-namespace mroed.trd.ovelse5._Spec._FizzBuzzPrinter.New.FizzNotBuzz
+namespace mroed.trd.ovelse5._Spec._FizzBuzzPrinter.New.FizzAndBuzz
 {
-    public class Printing_Act : New_Act
+    public class Print_Act : New_Act
     {
         protected string Returned;
 
@@ -16,7 +16,7 @@ namespace mroed.trd.ovelse5._Spec._FizzBuzzPrinter.New.FizzNotBuzz
         private void StubPredicates()
         {
             FizzPredicate.Stub(x => x.Matches(Counter)).Return(true);
-            BuzzPredicate.Stub(x => x.Matches(Counter)).Return(false);
+            BuzzPredicate.Stub(x => x.Matches(Counter)).Return(true);
         }
 
         protected override void Act()

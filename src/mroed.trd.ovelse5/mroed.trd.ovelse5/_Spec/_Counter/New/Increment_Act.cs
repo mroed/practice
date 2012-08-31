@@ -1,8 +1,7 @@
-﻿namespace mroed.trd.ovelse5._Spec._Counter.New.Given0
+﻿namespace mroed.trd.ovelse5._Spec._Counter.New
 {
-    public class Incrementing_Act : New_Act
+    public class Increment_Act : New_Act
     {
-        protected Counter Returned { get; set; }
 
         protected override void Arrange()
         {
@@ -12,7 +11,7 @@
 
         protected override void Act()
         {
-            Returned = Sut;
+            Sut.Increment();
         }
     }
 }

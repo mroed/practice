@@ -4,7 +4,7 @@ using Rhino.Mocks;
 namespace mroed.trd.ovelse5._Spec._NumericPrinter.New.IsOne
 {
     [TestFixture]
-    public class When_Printing : Printing_Act
+    public class When_Printing : Print_Act
     {
         [TestFixtureSetUp]
         public void Setup()
@@ -16,7 +16,7 @@ namespace mroed.trd.ovelse5._Spec._NumericPrinter.New.IsOne
         [Test]
         public void Should_Return_One_Given_One()
         {
-            Assert.AreEqual("1", Sut.Print(Counter));
+            Assert.AreEqual("1", Returned);
         }
     }
 }

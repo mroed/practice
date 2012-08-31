@@ -3,7 +3,7 @@
 namespace mroed.trd.ovelse5._Spec._FizzBuzzPredicate.New.BuzzNotFizz
 {
     [TestFixture]
-    public class When_Matching : Matching_Act
+    public class When_Matching : Match_Act
     {
         [TestFixtureSetUp]
         public void Setup()
@@ -15,7 +15,7 @@ namespace mroed.trd.ovelse5._Spec._FizzBuzzPredicate.New.BuzzNotFizz
         [Test]
         public void Will_Return_True()
         {
-            Assert.IsTrue(Sut.Matches(Counter));
+            Assert.IsTrue(Returned);
         }
     }
 }

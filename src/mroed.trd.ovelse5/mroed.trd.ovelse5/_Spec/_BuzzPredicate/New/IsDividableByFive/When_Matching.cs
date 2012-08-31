@@ -3,7 +3,7 @@
 namespace mroed.trd.ovelse5._Spec._BuzzPredicate.New.IsDividableByFive
 {
     [TestFixture]
-    public class When_Matching : Matching_Act
+    public class When_Matching : Match_Act
     {
 
         [TestFixtureSetUp]

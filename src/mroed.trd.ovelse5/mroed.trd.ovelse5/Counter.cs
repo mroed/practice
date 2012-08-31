@@ -7,6 +7,6 @@
             Value++;
         }
 
-        public virtual int Value { get; protected set; }
+        public virtual int Value { get; private set; }
     }
 }

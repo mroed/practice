@@ -1,12 +1,11 @@
-﻿using System;
-using Rhino.Mocks;
+﻿using Rhino.Mocks;
 
-namespace mroed.trd.ovelse5._Spec._NumericPrinter.New.IsRandom
+namespace mroed.trd.ovelse5._Spec._NumericPrinter.New.IsOne
 {
-    public class Printing_Act : New_Act
+    public class Print_Act : New_Act
     {
         protected string Returned;
-        protected int RandomNumber;
+        private const int counterValue = 1;
 
         protected override void Arrange()
         {
@@ -17,9 +16,7 @@ namespace mroed.trd.ovelse5._Spec._NumericPrinter.New.IsRandom
 
         private void StubCounter()
         {
-            var random = new Random();
-            RandomNumber = random.Next();
-            Counter.Stub(x => x.Value).Return(RandomNumber);
+            Counter.Stub(x => x.Value).Return(counterValue);
         }
 
         protected override void Act()

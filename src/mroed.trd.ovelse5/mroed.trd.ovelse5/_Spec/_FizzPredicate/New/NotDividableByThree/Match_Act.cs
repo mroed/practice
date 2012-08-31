@@ -1,11 +1,11 @@
 ﻿using Rhino.Mocks;
 
-namespace mroed.trd.ovelse5._Spec._FizzPredicate.New.IsDividableByThree
+namespace mroed.trd.ovelse5._Spec._FizzPredicate.New.NotDividableByThree
 {
-    public class Matching_Act : New_Act
+    public class Match_Act : New_Act
     {
         protected bool Returned;
-        private const int CounterValue = 3;
+        private const int CounterValue = 2;
 
         protected override void Arrange()
         {

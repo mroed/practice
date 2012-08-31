@@ -4,7 +4,7 @@ using Rhino.Mocks;
 namespace mroed.trd.ovelse5._Spec._FizzPredicate.New.NotDividableByThree
 {
     [TestFixture]
-    public class When_Matching : Matching_Act
+    public class When_Matching : Match_Act
     {
         [TestFixtureSetUp]
         public void Setup()
@@ -16,7 +16,7 @@ namespace mroed.trd.ovelse5._Spec._FizzPredicate.New.NotDividableByThree
         [Test]
         public void Should_Return_False()
         {
-            Assert.IsFalse(Sut.Matches(Counter));
+            Assert.IsFalse(Returned);
         }
     }
 }
