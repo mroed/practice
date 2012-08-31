@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A064A357-E76C-4DB4-B3CB-C14EF0E496F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mroed.trd.ovelse6</RootNamespace>
+    <AssemblyName>mroed.trd.ovelse6</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\tools\Nunit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\..\..\tools\Rhino\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Timpex.IoC">
+      <HintPath>..\..\..\lib\Timpex\Timpex.IoC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base_Act.cs" />
+    <Compile Include="BuzzPredicate.cs" />
+    <Compile Include="Counter.cs" />
+    <Compile Include="FizzBuzz.cs" />
+    <Compile Include="FizzBuzzPredicate.cs" />
+    <Compile Include="FizzBuzzPrinter.cs" />
+    <Compile Include="FizzPredicate.cs" />
+    <Compile Include="NumericPrinter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Spec\_BuzzPredicate\New\IsDividableByFive\Match_Act.cs" />
+    <Compile Include="_Spec\_BuzzPredicate\New_Act.cs" />
+    <Compile Include="_Spec\_BuzzPredicate\New\NotDividableByFive\Match_Act.cs" />
+    <Compile Include="_Spec\_Counter\When_New.cs" />
+    <Compile Include="_Spec\_Counter\New\Increment25_Act.cs" />
+    <Compile Include="_Spec\_Counter\New\When_Incrementing_25_Times.cs" />
+    <Compile Include="_Spec\_Counter\New\Increment_Act.cs" />
+    <Compile Include="_Spec\_Counter\New\When_Incrementing_Once.cs" />
+    <Compile Include="_Spec\_Counter\New_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New\BuzzNotFizz\Match_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New\FizzAndBuzz\Match_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New\FizzAndBuzz\When_Matching.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New\FizzNotBuzz\Match_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New\FizzNotBuzz\When_Matching.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\BuzzNotFizz\GivenOne\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\BuzzNotFizz\GivenOne\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\BuzzNotFizz\GivenTwo\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\BuzzNotFizz\GivenTwo\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzAndBuzz\GivenOne\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzAndBuzz\GivenOne\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzAndBuzz\GivenTwo\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzAndBuzz\GivenTwo\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzNotBuzz\GivenOne\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzNotBuzz\GivenTwo\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzNotBuzz\GivenTwo\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzz\IntegrationTest.cs" />
+    <Compile Include="_Spec\_BuzzPredicate\New\IsDividableByFive\When_Matching.cs" />
+    <Compile Include="_Spec\_BuzzPredicate\New\NotDividableByFive\When_Matching.cs" />
+    <Compile Include="_Spec\_FizzBuzzPredicate\New\BuzzNotFizz\When_Matching.cs" />
+    <Compile Include="_Spec\_FizzBuzzPrinter\New\FizzNotBuzz\GivenOne\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzz\New\IsFizzBuzz\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzz\New\IsFizzBuzz\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzz\New\NotFizzBuzz\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzBuzz\New\NotFizzBuzz\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzBuzz\New_Act.cs" />
+    <Compile Include="_Spec\_FizzPredicate\New\IsDividableByThree\Match_Act.cs" />
+    <Compile Include="_Spec\_FizzPredicate\New\IsDividableByThree\When_Matching.cs" />
+    <Compile Include="_Spec\_FizzPredicate\New\NotDividableByThree\Match_Act.cs" />
+    <Compile Include="_Spec\_FizzPredicate\New\NotDividableByThree\When_Matching.cs" />
+    <Compile Include="_Spec\_FizzPredicate\New_Act.cs" />
+    <Compile Include="_Spec\_NumericPrinter\New\IsOne\Print_Act.cs" />
+    <Compile Include="_Spec\_NumericPrinter\New\IsOne\When_Printing.cs" />
+    <Compile Include="_Spec\_NumericPrinter\New\IsRandom\When_Printing.cs" />
+    <Compile Include="_Spec\_NumericPrinter\New\IsRandom\Print_Act.cs" />
+    <Compile Include="_Spec\_NumericPrinter\New_Act.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
