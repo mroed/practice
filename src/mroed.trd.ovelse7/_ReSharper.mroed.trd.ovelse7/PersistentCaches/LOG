@@ -1,0 +1,6 @@
+2012/08/31-15:17:29.005 2314 Recovering log #64
+2012/08/31-15:17:29.006 2314 (ignoring error) C:\devel\practice\src\mroed.trd.ovelse7\_ReSharper.mroed.trd.ovelse7\PersistentCaches\000064.log: dropping 9735 bytes; Corruption: checksum mismatch
+2012/08/31-15:17:29.006 2314 Level-0 table #66: started
+2012/08/31-15:17:29.013 2314 Level-0 table #66: 28365 bytes OK
+2012/08/31-15:17:29.019 2314 Delete type=0 #64
+2012/08/31-15:17:29.019 2314 Delete type=3 #62
