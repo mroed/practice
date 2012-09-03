@@ -1,0 +1,22 @@
+﻿using NUnit.Framework;
+
+namespace mroed.trd.ovelse8._Spec._FizzWord.New
+{
+    [TestFixture]
+    public class When_Printing : Print_Act
+    {
+        [TestFixtureSetUp]
+        public void BeforeAll()
+        {
+            Arrange();
+            Act();
+        }
+
+        [Test]
+        public void Should_Return_Fizz()
+        {
+            Assert.AreEqual(Expected, Returned);
+        }
+         
+    }
+}

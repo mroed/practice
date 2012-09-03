@@ -1,0 +1,18 @@
+2012/09/03-14:47:12.566 1264 Recovering log #70
+2012/09/03-14:47:12.566 1264 (ignoring error) C:\devel\practice\src\mroed.trd.ovelse8\_ReSharper.mroed.trd.ovelse8\PersistentCaches\000070.log: dropping 26747 bytes; Corruption: checksum mismatch
+2012/09/03-14:47:12.566 1264 (ignoring error) C:\devel\practice\src\mroed.trd.ovelse8\_ReSharper.mroed.trd.ovelse8\PersistentCaches\000070.log: dropping 404 bytes; Corruption: missing start of fragmented record(2)
+2012/09/03-14:47:12.567 1264 (ignoring error) C:\devel\practice\src\mroed.trd.ovelse8\_ReSharper.mroed.trd.ovelse8\PersistentCaches\000070.log: dropping 31856 bytes; Corruption: checksum mismatch
+2012/09/03-14:47:12.567 1264 (ignoring error) C:\devel\practice\src\mroed.trd.ovelse8\_ReSharper.mroed.trd.ovelse8\PersistentCaches\000070.log: dropping 17 bytes; Corruption: missing start of fragmented record(2)
+2012/09/03-14:47:12.567 1264 Level-0 table #72: started
+2012/09/03-14:47:12.574 1264 Level-0 table #72: 22799 bytes OK
+2012/09/03-14:47:12.583 1264 Delete type=0 #70
+2012/09/03-14:47:12.583 1264 Delete type=3 #68
+2012/09/03-14:47:12.583 22cc Compacting 4@0 + 1@1 files
+2012/09/03-14:47:12.589 22cc Generated table #74: 305 keys, 22841 bytes
+2012/09/03-14:47:12.589 22cc Compacted 4@0 + 1@1 files => 22841 bytes
+2012/09/03-14:47:12.591 22cc Delete type=2 #61
+2012/09/03-14:47:12.591 22cc Delete type=2 #63
+2012/09/03-14:47:12.591 22cc Delete type=2 #66
+2012/09/03-14:47:12.591 22cc Delete type=2 #69
+2012/09/03-14:47:12.592 22cc Delete type=2 #72
+2012/09/03-14:47:12.592 22cc compacted to: files[ 0 1 0 0 0 0 0 ]
