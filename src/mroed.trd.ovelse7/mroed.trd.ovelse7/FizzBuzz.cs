@@ -2,7 +2,7 @@
 
 namespace mroed.trd.ovelse7
 {
-    public class FizzBuzz
+    public class FizzBuzz : IFizzBuzz
     {
         private readonly NumericPrinter _numericPrinter;
         private readonly FizzBuzzPrinter _fizzBuzzPrinter;
@@ -25,5 +25,10 @@ namespace mroed.trd.ovelse7
                 return _fizzBuzzPrinter.Print(_counter);
             return _numericPrinter.Print(_counter);
         }
+    }
+
+    public interface IFizzBuzz
+    {
+        string Print();
     }
 }

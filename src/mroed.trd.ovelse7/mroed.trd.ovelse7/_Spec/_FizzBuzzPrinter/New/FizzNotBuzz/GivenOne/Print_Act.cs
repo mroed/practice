@@ -5,18 +5,25 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter.New.FizzNotBuzz.GivenOne
     public class Print_Act : New_Act
     {
         protected string Returned;
+        protected string Expected = "Fizz";
 
         protected override void Arrange()
         {
             base.Arrange();
             base.Act();
+            StubFizzPrinter();
             StubPredicates();
-            StubFizzCounter();
+            //StubFizzCounter();
         }
 
-        private void StubFizzCounter()
+        //private void StubFizzCounter()
+        //{
+        //    FizzCounter.Stub(x => x.Value).Return(1);
+        //}
+
+        private void StubFizzPrinter()
         {
-            FizzCounter.Stub(x => x.Value).Return(1);
+            FizzPrinter.Stub(x => x.Print()).Return(Expected);
         }
 
         private void StubPredicates()

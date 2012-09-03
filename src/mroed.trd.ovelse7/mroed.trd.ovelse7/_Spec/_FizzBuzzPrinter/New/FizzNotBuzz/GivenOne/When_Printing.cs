@@ -13,11 +13,11 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter.New.FizzNotBuzz.GivenOne
             Act();
         }
 
-        [Test]
-        public void It_Should_Increment_First()
-        {
-            FizzCounter.AssertWasCalled(x => x.Increment());
-        }
+        //[Test]
+        //public void It_Should_Increment_First()
+        //{
+        //    FizzCounter.AssertWasCalled(x => x.Increment());
+        //}
 
         [Test]
         public void Should_Return_Fizz()

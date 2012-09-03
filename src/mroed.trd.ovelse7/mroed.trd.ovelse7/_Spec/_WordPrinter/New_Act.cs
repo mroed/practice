@@ -6,7 +6,9 @@ namespace mroed.trd.ovelse7._Spec._WordPrinter
     {
         protected WordPrinter Sut { get; set; }
         protected Counter Counter = MockRepository.GenerateMock<Counter>();
-        //protected WordPrinter WordPrinter = MockRepository.GenerateStub<WordPrinter>();
+        //protected Counter FizzCounter = MockRepository.GenerateMock<Counter>();
+        //protected Counter BuzzCounter = MockRepository.GenerateMock<Counter>();
+        //protected Counter FizzBuzzCounter = MockRepository.GenerateMock<Counter>();
 
         protected override void Arrange()
         {
@@ -14,11 +16,9 @@ namespace mroed.trd.ovelse7._Spec._WordPrinter
             base.Act();
         }
         
-        
-
         protected override void Act()
         {
-            Sut = new WordPrinter();
+            Sut = new WordPrinter(Counter);
         }
     }
 }

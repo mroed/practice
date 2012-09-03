@@ -1,24 +1,25 @@
-﻿using System;
-
-namespace mroed.trd.ovelse7
+﻿namespace mroed.trd.ovelse7
 {
     public class WordPrinter
     {
-        public virtual string Print(string word)
+        private readonly Counter _counter;
+        
+        public WordPrinter(Counter counter)
         {
-            return "Fizz 2 times!";
-            //counter.Increment();
-            //if (counter.Value > 1)
-            //    _returnValue = word + " " + counter.Value + " times!";
-            //else
-            //    _returnValue = word;
-
-            //throw new NotImplementedException();
+            _counter = counter;
         }
 
-        //public WordPrinter()
-        //{
-            
-        //}
+        public virtual string Print(string word)
+        {
+            _counter.Increment();
+            if (_counter.Value > 1)
+                return word + " " + _counter.Value + " times!";
+            return word;
+        }
+
+        public WordPrinter()
+        {
+
+        }
     }
 }

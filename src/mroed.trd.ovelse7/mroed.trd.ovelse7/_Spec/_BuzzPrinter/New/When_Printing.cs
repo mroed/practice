@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace mroed.trd.ovelse7._Spec._WordPrinter.New.FizzNotBuzz.GivenTwo
+namespace mroed.trd.ovelse7._Spec._BuzzPrinter.New
 {
     [TestFixture]
     public class When_Printing : Print_Act
@@ -13,10 +13,9 @@ namespace mroed.trd.ovelse7._Spec._WordPrinter.New.FizzNotBuzz.GivenTwo
         }
 
         [Test]
-        public void Should_Return_Fizz()
+        public void Should_Return_Expected_From_WordPrinter()
         {
-            Assert.AreEqual("Fizz 2 times!", Returned);
+            Assert.AreEqual(Expected, Returned);
         }
-         
     }
 }

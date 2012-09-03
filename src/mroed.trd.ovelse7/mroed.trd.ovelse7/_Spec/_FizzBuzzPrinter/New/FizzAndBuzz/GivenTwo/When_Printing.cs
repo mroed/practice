@@ -13,16 +13,16 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter.New.FizzAndBuzz.GivenTwo
             Act();
         }
 
-        [Test]
-        public void It_Should_Increment_First()
-        {
-            FizzBuzzCounter.AssertWasCalled(x => x.Increment());
-        }
+        //[Test]
+        //public void It_Should_Increment_First()
+        //{
+        //    FizzBuzzCounter.AssertWasCalled(x => x.Increment());
+        //}
 
         [Test]
         public void Should_Return_FizzBuzz()
         {
-            Assert.AreEqual("FizzBuzz 2 times!", Returned);
+            Assert.AreEqual(Expected, Returned);
         }
     }
 }

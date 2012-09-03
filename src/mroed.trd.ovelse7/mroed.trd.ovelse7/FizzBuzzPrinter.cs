@@ -4,27 +4,22 @@
     {
         private readonly FizzPredicate _fizzPredicate;
         private readonly BuzzPredicate _buzzPredicate;
-        private readonly Counter _fizzCounter;
-        private readonly Counter _buzzCounter;
-        private readonly Counter _fizzBuzzCounter;
-        private readonly WordPrinter _fizzPrinter;
-        private readonly WordPrinter _buzzPrinter;
-        private readonly WordPrinter _fizzBuzzPrinter;
+        private readonly FizzPrinter _fizzPrinter;
+        private readonly BuzzPrinter _buzzPrinter;
+        private readonly FizzAndBuzzPrinter _fizzAndBuzzPrinter;
+
         private Counter _counter;
         private string _returnValue;
 
 
-        public FizzBuzzPrinter(FizzPredicate fizzPredicate, BuzzPredicate buzzPredicate, Counter fizzCounter,
-                               Counter buzzCounter, Counter fizzBuzzCounter, WordPrinter fizzPrinter, WordPrinter buzzPrinter, WordPrinter fizzBuzzPrinter)
+        public FizzBuzzPrinter(FizzPredicate fizzPredicate, BuzzPredicate buzzPredicate, FizzPrinter fizzPrinter, BuzzPrinter buzzPrinter, FizzAndBuzzPrinter fizzAndBuzzPrinter)
+            //Counter fizzCounter, Counter buzzCounter, Counter fizzBuzzCounter, WordPrinter fizzPrinter, WordPrinter buzzPrinter, WordPrinter fizzBuzzPrinter)
         {
             _fizzPredicate = fizzPredicate;
             _buzzPredicate = buzzPredicate;
-            _fizzCounter = fizzCounter;
-            _buzzCounter = buzzCounter;
-            _fizzBuzzCounter = fizzBuzzCounter;
             _fizzPrinter = fizzPrinter;
             _buzzPrinter = buzzPrinter;
-            _fizzBuzzPrinter = fizzBuzzPrinter;
+            _fizzAndBuzzPrinter = fizzAndBuzzPrinter;
         }
 
         public virtual string Print(Counter counter)
@@ -39,7 +34,7 @@
         {
             bool match = IsFizzAndBuzz();
             if (match)
-                PrintWord("FizzBuzz",_fizzBuzzCounter);
+                _returnValue = _fizzAndBuzzPrinter.Print();
             return match;
         }
 
@@ -47,26 +42,16 @@
         {
             bool match = IsBuzz();
             if (match)
-                PrintWord("Buzz",_buzzCounter);
+                _returnValue = _buzzPrinter.Print();
             return match;
         }
 
         private string PrintFizz()
         {
-            PrintWord("Fizz",_fizzCounter);
+            _returnValue = _fizzPrinter.Print();
             return _returnValue;
         }
-
-        private void PrintWord(string word, Counter counter)
-        {
-            counter.Increment();
-            if (counter.Value > 1)
-                _returnValue = word + " " + counter.Value + " times!";
-            else
-                _returnValue = word;            
-        }
-
-
+        
         private bool IsFizzAndBuzz()
         {
             return IsFizz() && IsBuzz();

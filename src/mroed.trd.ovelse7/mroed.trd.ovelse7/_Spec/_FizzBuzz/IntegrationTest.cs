@@ -7,13 +7,14 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzz
     public class IntegrationTest
     {
         private readonly Ioc _ioc = new InversionOfControlContainer();
-        private FizzBuzz _sut;
+        private IFizzBuzz _sut;
         private readonly string[] _result = new string[15];
 
         [TestFixtureSetUp]
         public void BeforeAll()
         {
-            _sut = _ioc.Resolve<FizzBuzz>();
+            _ioc.Register<IFizzBuzz,FizzBuzz>();
+            _sut = _ioc.Resolve<IFizzBuzz>();
             for (int i = 1; i <= 15; i++)
             {
                 _result[i - 1] = _sut.Print();

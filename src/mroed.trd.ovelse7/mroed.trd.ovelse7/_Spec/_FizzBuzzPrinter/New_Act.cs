@@ -8,12 +8,10 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter
         protected FizzPredicate FizzPredicate = MockRepository.GenerateStrictMock<FizzPredicate>();
         protected BuzzPredicate BuzzPredicate = MockRepository.GenerateStrictMock<BuzzPredicate>();
         protected Counter Counter = MockRepository.GenerateMock<Counter>();
-        protected Counter FizzCounter = MockRepository.GenerateMock<Counter>();
-        protected Counter BuzzCounter = MockRepository.GenerateMock<Counter>();
-        protected Counter FizzBuzzCounter = MockRepository.GenerateMock<Counter>();
-        protected WordPrinter FizzPrinter = MockRepository.GenerateStub<WordPrinter>();
-        protected WordPrinter BuzzPrinter = MockRepository.GenerateStub<WordPrinter>();
-        protected WordPrinter FizzAndBuzzPrinter = MockRepository.GenerateStub<WordPrinter>();
+        protected FizzPrinter FizzPrinter = MockRepository.GenerateStrictMock<FizzPrinter>();
+        protected BuzzPrinter BuzzPrinter = MockRepository.GenerateStrictMock<BuzzPrinter>();
+        protected FizzAndBuzzPrinter FizzAndBuzzPrinter = MockRepository.GenerateStrictMock<FizzAndBuzzPrinter>();
+        
 
 
         protected override void Arrange()
@@ -24,7 +22,9 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter
 
         protected override void Act()
         {
-            Sut = new FizzBuzzPrinter(FizzPredicate, BuzzPredicate, FizzCounter, BuzzCounter, FizzBuzzCounter, FizzPrinter, BuzzPrinter, FizzAndBuzzPrinter);
+            Sut = new FizzBuzzPrinter(FizzPredicate, BuzzPredicate, FizzPrinter, BuzzPrinter, FizzAndBuzzPrinter);
         }
+
+
     }
 }

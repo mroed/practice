@@ -51,23 +51,32 @@
   <ItemGroup>
     <Compile Include="Base_Act.cs" />
     <Compile Include="BuzzPredicate.cs" />
+    <Compile Include="BuzzPrinter.cs" />
     <Compile Include="Counter.cs" />
+    <Compile Include="FizzAndBuzzPrinter.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="FizzBuzzPredicate.cs" />
     <Compile Include="FizzBuzzPrinter.cs" />
     <Compile Include="FizzPredicate.cs" />
+    <Compile Include="FizzPrinter.cs" />
     <Compile Include="NumericPrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WordPrinter.cs" />
     <Compile Include="_Spec\_BuzzPredicate\New\IsDividableByFive\Match_Act.cs" />
     <Compile Include="_Spec\_BuzzPredicate\New_Act.cs" />
     <Compile Include="_Spec\_BuzzPredicate\New\NotDividableByFive\Match_Act.cs" />
+    <Compile Include="_Spec\_BuzzPrinter\New\Print_Act.cs" />
+    <Compile Include="_Spec\_BuzzPrinter\New\When_Printing.cs" />
+    <Compile Include="_Spec\_BuzzPrinter\New_Act.cs" />
     <Compile Include="_Spec\_Counter\When_New.cs" />
     <Compile Include="_Spec\_Counter\New\Increment25_Act.cs" />
     <Compile Include="_Spec\_Counter\New\When_Incrementing_25_Times.cs" />
     <Compile Include="_Spec\_Counter\New\Increment_Act.cs" />
     <Compile Include="_Spec\_Counter\New\When_Incrementing_Once.cs" />
     <Compile Include="_Spec\_Counter\New_Act.cs" />
+    <Compile Include="_Spec\_FizzAndBuzzPrinter\New\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzAndBuzzPrinter\New\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzAndBuzzPrinter\New_Act.cs" />
     <Compile Include="_Spec\_FizzBuzzPredicate\New\BuzzNotFizz\Match_Act.cs" />
     <Compile Include="_Spec\_FizzBuzzPredicate\New\FizzAndBuzz\Match_Act.cs" />
     <Compile Include="_Spec\_FizzBuzzPredicate\New\FizzAndBuzz\When_Matching.cs" />
@@ -101,20 +110,21 @@
     <Compile Include="_Spec\_FizzPredicate\New\NotDividableByThree\Match_Act.cs" />
     <Compile Include="_Spec\_FizzPredicate\New\NotDividableByThree\When_Matching.cs" />
     <Compile Include="_Spec\_FizzPredicate\New_Act.cs" />
+    <Compile Include="_Spec\_FizzPrinter\New\Print_Act.cs" />
+    <Compile Include="_Spec\_FizzPrinter\New\When_Printing.cs" />
+    <Compile Include="_Spec\_FizzPrinter\New_Act.cs" />
     <Compile Include="_Spec\_NumericPrinter\New\IsOne\Print_Act.cs" />
     <Compile Include="_Spec\_NumericPrinter\New\IsOne\When_Printing.cs" />
     <Compile Include="_Spec\_NumericPrinter\New\IsRandom\When_Printing.cs" />
     <Compile Include="_Spec\_NumericPrinter\New\IsRandom\Print_Act.cs" />
     <Compile Include="_Spec\_NumericPrinter\New_Act.cs" />
-    <Compile Include="_Spec\_WordPrinter\New\FizzNotBuzz\GivenTwo\Print_Act.cs" />
-    <Compile Include="_Spec\_WordPrinter\New\FizzNotBuzz\GivenTwo\When_Printing.cs" />
+    <Compile Include="_Spec\_WordPrinter\New\GivenOne\Print_Act.cs" />
+    <Compile Include="_Spec\_WordPrinter\New\GivenOne\When_Printing.cs" />
+    <Compile Include="_Spec\_WordPrinter\New\GivenTwo\Print_Act.cs" />
+    <Compile Include="_Spec\_WordPrinter\New\GivenTwo\When_Printing.cs" />
     <Compile Include="_Spec\_WordPrinter\New_Act.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="_Spec\_WordPrinter\New\BuzzNotFizz\" />
-    <Folder Include="_Spec\_WordPrinter\New\FizzAndBuzz\" />
-    <Folder Include="_Spec\_WordPrinter\New\FizzNotBuzz\GivenOne\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

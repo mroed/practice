@@ -1,7 +1,6 @@
 ﻿using NUnit.Framework;
-using Rhino.Mocks;
 
-namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter.New.FizzAndBuzz.GivenOne
+namespace mroed.trd.ovelse7._Spec._FizzAndBuzzPrinter.New
 {
     [TestFixture]
     public class When_Printing : Print_Act
@@ -14,9 +13,9 @@ namespace mroed.trd.ovelse7._Spec._FizzBuzzPrinter.New.FizzAndBuzz.GivenOne
         }
 
         [Test]
-        public void Should_Return_FizzBuzz()
+        public void Should_Return_Expected_From_WordPrinter()
         {
-            Assert.AreEqual("FizzBuzz", Returned);
+            Assert.AreEqual(Expected, Returned);
         }
     }
 }
